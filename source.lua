@@ -226,6 +226,7 @@ function Kavo.CreateLib(kavName, themeList)
     ScreenGui.Name = LibName
     ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     ScreenGui.ResetOnSpawn = false
+    ScreenGui.Draggable = true
 
     Main.Name = "Main"
     Main.Parent = ScreenGui
